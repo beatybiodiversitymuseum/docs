@@ -24,7 +24,6 @@ plugins:
   - glightbox
   - search
   - tags
-  - table-reader
 theme:
   favicon: assets/beaty-logo-symbol-red.svg
   logo: assets/beaty-logo-symbol-white.png
