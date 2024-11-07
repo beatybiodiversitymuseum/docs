@@ -1,0 +1,111 @@
+site_name: Data Documentation
+nav:
+  - Home:
+      - index.md
+  - Specify:
+      - Getting Started:
+          - specify/getting-started/index.md
+          - specify/getting-started/user-preferences.md
+          - specify/getting-started/simple-search.md
+          - specify/getting-started/queries.md
+          - specify/getting-started/trees.md
+          - specify/getting-started/workbench.md
+  - Portal:
+      - portal/index.md
+      - portal/searching.md
+      - portal/navigating-to-a-particular-dataset.md
+      - portal/downloading-data.md
+      - portal/viewing-data.md
+      - portal/ids.md
+  - Reference:
+      - reference/index.md
+
+plugins:
+  - glightbox
+  - offline
+  - search
+  - tags
+  - table-reader
+theme:
+  favicon: assets/beaty-logo-symbol-red.svg
+  logo: assets/beaty-logo-symbol-white.png
+  icon:
+    repo: fontawesome/brands/github
+    admonition:
+      quote: fontawesome/solid/circle-question
+    annotation: material/chevron-right-circle
+
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.path
+    - navigation.indexes
+    - content.tabs.link
+    - navigation.sections
+    - content.code.copy
+    - content.action.edit
+    - content.action.view
+  font:
+    text: Open Sans
+  palette:
+    - scheme: beaty
+      primary: custom
+      accent: red
+      toggle:
+        icon: material/bat
+        name: Switch to dark mode
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/bird
+        name: Switch to light mode
+repo_url: https://github.com/beatybiodiversitymuseum/docs
+repo_name: beatymuseum/docs
+edit_uri: "edit/main/docs"
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+  - abbr
+  - def_list
+  - pymdownx.highlight:
+      anchor_linenums: true
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.tasklist:
+      custom_checkbox: true
+extra_css:
+  - stylesheets/extra.css
+copyright: Beaty Biodiversity Museum
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/BeatyMuseum
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/beatymuseum
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/beatymuseum
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com/beatymuseum
