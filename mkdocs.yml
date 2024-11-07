@@ -22,7 +22,6 @@ nav:
 
 plugins:
   - glightbox
-  - offline
   - search
   - tags
   - table-reader
@@ -61,7 +60,7 @@ theme:
         icon: material/bird
         name: Switch to light mode
 repo_url: https://github.com/beatybiodiversitymuseum/docs
-repo_name: beatymuseum/docs
+repo_name: beatybiodiversitymuseum/docs
 edit_uri: "edit/main/docs"
 markdown_extensions:
   - attr_list
