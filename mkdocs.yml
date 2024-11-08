@@ -58,8 +58,8 @@ theme:
       toggle:
         icon: material/bird
         name: Switch to light mode
-repo_url: https://github.com/beatybiodiversitymuseum/docs
-repo_name: beatybiodiversitymuseum/docs
+repo_url: https://github.com/beatybiodiversitymuseum/data-docs
+repo_name: beatybiodiversitymuseum/data-docs
 edit_uri: "edit/main/docs"
 markdown_extensions:
   - attr_list
