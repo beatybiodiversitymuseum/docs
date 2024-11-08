@@ -19,8 +19,11 @@ nav:
       - portal/downloading-data.md
       - portal/viewing-data.md
       - portal/ids.md
+      - Programmatic Access:
+          - portal/programmatic-access/gbif-api.md
   - Reference:
       - reference/index.md
+      - reference/key-reference.md
 
 plugins:
   - glightbox

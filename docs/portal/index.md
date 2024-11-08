@@ -54,32 +54,13 @@ graph TD
 
 Any particular collection can be accessed through `https://collections.beatymuseum.ubc.ca/collection/{identifier}`
 
-| Collection Name | Code | Identifier |
-| --------------- | ---- | ---------- |
-| Cowan Tetrapod Collection | CTC | `3b2ad644-b3e4-4ac9-a57f-23be3f86ed0e` |
-| Beaty Biodiversity Fish Collection | ICH | `5aee131f-91dd-4b78-bfee-296f86801b7f` |
-| Beaty Biodiversity Fossil Collection | PAL | `1fcf0cb0-aa26-40d0-8311-fb4b6f2050f7` |
-| Beaty Biodiversity Museum Marine Invertebrate Collection | MIC | `403e3c1f-086f-461b-9718-60537ee4ce3c` |
-| Spencer Entomological Collection | SEC | `8f5f5b6f-28c6-44b4-8f21-98c55eaae203` |
-| UBC Herbarium | UBC | `b44fcb7f-1227-4fa3-8ed2-de27aabb06e0` |
+The value for `{identifier}` can be referenced [here](../reference/key-reference.md)
 
 ### Datasets
 
 Any particular dataset can be accessed through `https://collections.beatymuseum.ubc.ca/dataset/{identifier}`
 
-| Dataset Name | Identifier |
-| ------------ | ---------- |
-| Birds | ba0c046d-52bb-4262-a495-652988c9f3f7 |
-| Mammals | 3ad882bb-cd21-4201-8b83-3684bfc6d830 |
-| Herpetology | df9c8b86-9d36-4e29-91b3-4274dff053e5 |
-| Entomology | 9c45867f-f77d-42f3-9751-ae16bb7c9bc8 |
-| Fish | 4caf2040-83ad-4fa7-ba13-005bced721eb |
-| Fungi | ca1bcd7e-7387-42f9-81ba-1470db55e3e8 |
-| Lichen | 628abbe5-dc8d-41e9-a0c7-f05efe282649 |
-| Bryophytes | 4edd9396-59df-4b01-9e29-dc21a59f9963 |
-| Algae | 90302970-1bc6-4865-be76-9aef1dd707f9 |
-| Vascular Plants | 07fd0d79-4883-435f-bba1-58fef110cd13 |
-
+The value for `{identifier}` can be referenced [here](../reference/key-reference.md)
 
 *[API]: Application Programming Interface
 *[CDN]: Content Delivery Network
