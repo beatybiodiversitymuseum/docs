@@ -95,7 +95,7 @@ markdown_extensions:
       custom_checkbox: true
 extra_css:
   - stylesheets/extra.css
-copyright: Beaty Biodiversity Museum
+copyright: <iframe src="https://status.beatymuseum.ubc.ca/badge?theme=dark" width="250" height="30" frameborder="0" scrolling="no"></iframe>
 extra:
   generator: false
   social:
