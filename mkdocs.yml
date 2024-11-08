@@ -10,6 +10,8 @@ nav:
           - specify/getting-started/queries.md
           - specify/getting-started/trees.md
           - specify/getting-started/workbench.md
+      - Tutorials:
+          - specify/tutorials/keep-track-of-recently-entered-records.md
   - Portal:
       - portal/index.md
       - portal/searching.md
