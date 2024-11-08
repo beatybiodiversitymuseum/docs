@@ -31,7 +31,7 @@ The query for modified records looks the same as the above, except `Timestamp Mo
 | Field | Operator | Value |
 | ----- | -------- | ----- |
 | Catalogue Number | Any | N/A |
-| Timestamp Modified | Less Than {Relative} {Weeks} {in the past} | 2 |
+| Timestamp Modified | Greater Than {Relative} {Weeks} {in the past} | 2 |
 
 ## Adding both queries to the statistics panel
 
