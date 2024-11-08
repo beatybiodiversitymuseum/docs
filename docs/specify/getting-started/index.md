@@ -13,8 +13,8 @@ Specify is the Collection Management System (CMS) for the museum, and is where a
 
 By the end of this page, you will:
 
-- [ ] Understand key concepts within Specify and how to use basic terminology to describe elements of the system
-- [ ] Grasp how Specify differs from other CMS systems, and the relational database model that Specify uses
+- [ ] Understand key concepts within Specify and how to use basic terminology to describe elements of the system.
+- [ ] Grasp how Specify differs from other CMS systems, and the relational database model that Specify uses.
 - [ ] Have the skills to enter data into a table using the `Data Entry` process.
 
 
@@ -26,7 +26,7 @@ By the end of this page, you will:
 
 `Agent`
 
-:   An agent is either a person or a group of people that perform some action with the system. All users have an assigned Agent which represents them in the system.
+:   An agent is either a person or a group of people that perform some action within the system. All users have an assigned Agent which represents them in the system.
 
 `Collecting Event`
 
@@ -34,7 +34,7 @@ By the end of this page, you will:
 
 `Determination/Identification`
 
-:   The taxonomic identification of a Collecting Object. For example, this specimen has been identified as _Vulpes_ vulpes (red fox).
+:   The taxonomic identification of a Collecting Object. For example, this specimen has been identified as *Vulpes vulpes* (red fox).
 
 `Preparation`
 
@@ -46,7 +46,7 @@ By the end of this page, you will:
 
 `Catalog Number`
 
-:   Each Collection Object has a unique Catalog Number within each collection. These always take the form A#######, where A can be a different capital letter, depending on the collection.
+:   Each Collection Object has a unique Catalog Number within each collection. These always take the form `[A-Z]#######`, where `[A-Z]` is a single capital letter that differs by collection.
 
 `Query`
 
